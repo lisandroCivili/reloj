@@ -25,12 +25,26 @@
           </nav>
     </header>
     <main class="flex-grow-1 bg-info-subtle d-flex flex-column justify-content-center">
-        <div>
-            
+      <section class="border border-warning d-flex">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-7 d-flex justify-content-center">
+              <p id="actualDay" class="fs-3"></p>
+            </div>
+            <div class="col-7 d-flex justify-content-center">
+              <p id="actualHour"></p>
+              <p id="actualMinute"></p>
+              <div id="secs" class="d-flex flex-column justify-content-center">
+                <p id="amOrPm" class="mb-0 fs-4"></p>
+                <p id="actualSecs" class="mt-0 fs-2"></p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
     </main>
     <footer class="bg-dark text-light py-3 text-center">
-        
       </footer>
+      <script src="./js/app.js"></script>
 </body>
 </html>
