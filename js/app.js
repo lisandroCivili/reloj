@@ -41,5 +41,5 @@ const setDay = ()=>{
 
 }
 
-setDay()
+setDay()    
 setInterval(setHours,1000)
